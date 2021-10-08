@@ -198,8 +198,7 @@ function initBuffers(gl) {
   ];
 
   gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
-  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
-  
+ 
   
   const faceColors = [
     [1.0,  0.0,  0.0,  1.0],    // Front face: white
